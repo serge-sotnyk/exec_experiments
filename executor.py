@@ -8,5 +8,5 @@ def get_version():
 
 if __name__ == "__main__":
     namespace = {}
-    exec(_code, namespace, namespace)
+    exec(_code, namespace)
     print(namespace['get_version']())
